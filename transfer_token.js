@@ -71,8 +71,8 @@ async function wipeToken(accountId, tokenId, amount) {
 }
 
 async function main() {
-    const tokenId = "";
-    await associateToken(tokenId, secondAccountId);
+    const tokenId = "0.0.6781340";
+    //await associateToken(tokenId, secondAccountId);
     await queryAccountBalance(myAccountId);
     await queryAccountBalance(secondAccountId);
     await transferToken(myAccountId, secondAccountId, 1000, tokenId);
